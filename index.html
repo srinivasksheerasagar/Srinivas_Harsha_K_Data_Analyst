@@ -788,31 +788,39 @@
     </section>
 
     
-    <section id="skills">
-    <div class="container">
-        <h2 class="section-title">Skills</h2>
-        
-        <div class="skill-category">
-            <h3>Programming Languages</h3>
-            <p>Python, SQL, VBA, HTML/CSS, C</p>
-        </div>
-        
-        <div class="skill-category">
-            <h3>Libraries / Frameworks</h3>
-            <p>Pandas, NumPy, Matplotlib, Seaborn, Scrapy, BeautifulSoup, StatsModel, Scikit-Learn, TensorFlow, OpenCV</p>
-        </div>
-        
-        <div class="skill-category">
-            <h3>Tools / Platforms</h3>
-            <p>MySQL Workbench, Power BI Desktop, Jupyter Notebook</p>
-        </div>
-        
-        <div class="skill-category">
-            <h3>Soft Skills</h3>
-            <p>Excellent Communication, People Management, Rapport Building, Strong Stakeholder Management</p>
-        </div>
+<!-- This is a skills section -->
+import React from "react";
+
+const Skills = () => {
+  return (
+    <div className="bg-gray-900 text-white p-6 rounded-lg shadow-lg">
+      <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-700 pb-2">Skills</h2>
+      
+      <div className="mb-4">
+        <h3 className="text-xl font-semibold text-blue-400">Programming Languages</h3>
+        <p className="text-gray-300">Python, SQL, VBA, HTML/CSS, C</p>
+      </div>
+      
+      <div className="mb-4">
+        <h3 className="text-xl font-semibold text-green-400">Libraries / Frameworks</h3>
+        <p className="text-gray-300">Pandas, NumPy, Matplotlib, Seaborn, Scrapy, BeautifulSoup, StatsModel, Scikit-Learn, TensorFlow, OpenCV</p>
+      </div>
+      
+      <div className="mb-4">
+        <h3 className="text-xl font-semibold text-yellow-400">Tools / Platforms</h3>
+        <p className="text-gray-300">MySQL Workbench, Power BI Desktop, Jupyter Notebook</p>
+      </div>
+      
+      <div>
+        <h3 className="text-xl font-semibold text-red-400">Soft Skills</h3>
+        <p className="text-gray-300">Excellent Communication, People Management, Rapport Building, Strong Stakeholder Management</p>
+      </div>
     </div>
-</section>
+  );
+};
+
+export default Skills;
+
 
 
 
