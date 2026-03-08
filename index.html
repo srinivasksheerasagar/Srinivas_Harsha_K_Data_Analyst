@@ -375,10 +375,13 @@
         }
         
         .contact-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            display: flex;
+            flex-direction: column;
             gap: 20px;
             margin-top: 20px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         .contact-item {
@@ -693,18 +696,6 @@
                 <li>Developed, trained, and evaluated predictive Machine Learning models to optimize business forecasting and decision accuracy.</li>
             </ul>
         </div>
-
-        <div class="experience-item">
-            <h3>Data Analytics Trainee</h3>
-            <span class="company">MedTourEasy</span>
-            <span class="date">Previous</span>
-            <p>Location: New Delhi, Delhi</p>
-            <ul>
-                <li>Conducted data exploration, cleaning, and visualization using Python and other analytical tools to derive meaningful insights from healthcare datasets.</li>
-                <li>Applied statistical techniques to analyze healthcare data and support data-driven decision-making.</li>
-                <li>Developed interactive dashboards and reports to visualize key healthcare analytics trends.</li>
-            </ul>
-        </div>
     </section>
     
     <section id="projects">
@@ -745,16 +736,16 @@
             
             <div class="project">
                 <div class="project-img">
-                    <img src="museum_images.jpeg" alt="Paintings & Museums Analysis">
+                    <img src="erp_system.png" alt="Custom ERP System">
                 </div>
                 <div class="project-content">
-                    <h3>Famous Paintings & Museums Analysis</h3>
-                    <p>Extracted insights from an art dataset using SQL, analyzing artwork distribution, museum operations, and pricing trends. Performed aggregations to identify popular painting styles, top artists, and high-traffic museums, optimizing SQL queries for efficiency.</p>
+                    <h3>Custom ERP & Inventory Tracking System</h3>
+                    <p>Developed custom ERP and inventory tracking systems to analyze large production datasets, driving operational decision-making and tracking real-time stock levels. Automated MIS reports and BI dashboards using Google Apps Script and Google Sheets, creating an end-to-end automation framework with automated notifications.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">MySQL Workbench</span>
-                        <span class="tech-tag">Jupyter Notebook</span>
-                        <span class="tech-tag">SQL</span>
-                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">Google Apps Script</span>
+                        <span class="tech-tag">Google Sheets</span>
+                        <span class="tech-tag">Advanced Excel</span>
+                        <span class="tech-tag">ERP Workflows</span>
                     </div>
                 </div>
             </div>
